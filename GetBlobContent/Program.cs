@@ -1,5 +1,3 @@
-
-
 using Azure.Storage.Blobs;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 
-string key = "DefaultEndpointsProtocol=https;AccountName=ericgignite2024;AccountKey=TOREMOVEx900cp99f+oxKCi6oc7qh7HTvHy2e8eFdIb7Ovyj3V0Tz7Tt9PmkGNKAX5qNQLQ8GLTRZFM88JYv+AStkFkYlQ==;EndpointSuffix=core.windows.net";
+string key = "DefaultEndpointsProtocol=https;AccountName=ericgignite2024;AccountKey=INSERTKEY;EndpointSuffix=core.windows.net";
 string containerName = "container1";
 string blobName = "Ignite2024.txt";
 
