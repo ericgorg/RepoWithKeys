@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 
-string key = "DefaultEndpointsProtocol=https;AccountName=ericgignite2024;AccountKey=INSERTKEY;EndpointSuffix=core.windows.net";
+string key = "DefaultEndpointsProtocol=https;AccountName=ericgignite2024;AccountKey=3wUoZzzxJZRul3oEg6nf4v8nVzRfvQC/sVtvpBloBDHdIAZQdAZWOkjH7A31ig2ud2PdK2GaPbU8+AStcxPIPQ==;EndpointSuffix=core.windows.net";
 string containerName = "container1";
 string blobName = "Ignite2024.txt";
 
