@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 
-string key = "DefaultEndpointsProtocol=https;AccountName=ericgignite2024;AccountKey=INSERTKEY;EndpointSuffix=core.windows.net";
+string key = "DefaultEndpointsProtocol=https;AccountName=ericgignite2024;AccountKey=VEg1ZsR613kD8sgnjtc5L5RqIue0rXjut8wLXOUip70f3OZVckPmPHDP1wmpBv4RicGxWfy1MvNm+AStQWQMVg==;EndpointSuffix=core.windows.net";
 string containerName = "container1";
 
 
